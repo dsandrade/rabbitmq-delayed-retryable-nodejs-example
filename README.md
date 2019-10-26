@@ -1,0 +1,1 @@
+docker run -d --name rabbitmq-test -e RABBITMQ_DEFAULT_USER=testing -e RABBITMQ_DEFAULT_PASS=testing12 -p 4369:4369 -p 5671:5671 -p 5672:5672 -p 25672:25672 -p 8080:15672 cleancodesolution/delayed_rabbitmq:3.8
